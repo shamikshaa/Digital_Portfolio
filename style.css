@@ -1,0 +1,112 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #D1C0EC;   /* light lavender background */
+  color: #44334A;        /* dark text */
+}
+
+/* Navbar */
+header {
+  background: linear-gradient(90deg, #44334A, #8D77A8); /* purple gradient */
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px; /* pushes links to next line */
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: transparent; /* keep transparent to show body bg */
+}
+
+.hero h1 { margin-bottom: 0.5em; }
+.hero p  { margin-bottom: 1.2em; }
+
+/* Button */
+.btn {
+  background: #8D77A8;
+  color: #fff;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #44334A;
+  color: #fff;
+}
+
+/* Projects */
+#project ul { padding: 0; }
+
+#project li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  list-style: none;
+  transition: transform 0.2s;
+  color: #44334A;
+}
+
+#project li:hover { transform: translateY(-3px); }
+
+/* Internship */
+#internship {
+  padding: 20px;
+}
+
+#internship h2 {
+  font-size: 22px;
+  color: #44334A;
+}
+
+#internship p {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #8D77A8, #44334A);
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.9rem;
+}
+
+/* Profile Image */
+#home img {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #8D77A8;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
